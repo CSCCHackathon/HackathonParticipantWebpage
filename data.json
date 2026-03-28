@@ -2,7 +2,7 @@
   {
     "teamName": "404",
     "participants": ["Kshitija Ghogare", "Aneri Kamlesh Shastri "],
-    "emails": ["ashastri@umassd.edu, "kghogare@umassd.edu"],
+    "emails": ["ashastri@umassd.edu", "kghogare@umassd.edu"],
     "level": "Graduate"
   },
   {
@@ -44,7 +44,7 @@
   
   {
     "teamName": "The FBI",
-    "participants": ["Adam Trott", "Huy Truong", "Raquel Ana Bush""],
+    "participants": ["Adam Trott", "Huy Truong", "Raquel Ana Bush"],
     "emails": ["htruong2@umassd.edu, atrott@umassd.edu, rbush@umassd.edu"],
     "level": "Graduate"
   },
