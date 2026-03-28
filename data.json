@@ -1,14 +1,78 @@
 [
   {
-    "teamName": "Alpha Team",
-    "participants": ["John Doe", "Jane Smith"],
-    "emails": ["john@example.com", "jane@example.com"],
-    "level": "Undergraduate"
+    "teamName": "404",
+    "participants": ["Kshitija Ghogare", "Aneri Kamlesh Shastri "],
+    "emails": ["ashastri@umassd.edu, "Kghogare@umassd.edu"],
+    "level": "Graduate"
   },
   {
-    "teamName": "Beta Team",
-    "participants": ["Michael Lee"],
-    "emails": ["michael@example.com"],
+    "teamName": "Techies",
+    "participants": ["Pranesh E A", "Jyothi Singh"],
+    "emails": ["eapranesh04@gmail.com","Jsingh10@umassd.edu"],
     "level": "Graduate"
-  }
+  },
+  {
+    "teamName": "Solo warrior",
+    "participants": ["Jeffrey Joel Pandian"],
+    "emails": ["fjeffreyjoelpandian@umassd.edu"],
+    "level": "Graduate"
+  },
+  {
+    "teamName": "Cybercloud",
+    "participants": ["Shriya Rudhraganesh", "Mahnoor Khalid"],
+    "emails": ["srudhraganesh@umassd.edu"],
+    "level": "Graduate"
+  },
+  {
+    "teamName": "Cybercloud",
+    "participants": ["Usman Bello"],
+    "emails": ["ubello@umassd.edu"],
+    "level": "Undergraduate"
+  },
+   {
+    "teamName": "N/A",
+    "participants": ["Sai KaungSet Thar"],
+    "emails": ["Sthar@umassd.edu"],
+    "level": "Graduate"
+  },
+  {
+    "teamName": "N/A",
+    "participants": ["Janavi Joshi", "Sherap Gurung"],
+    "emails": ["jjoshi1@umassd.edu","sgurung4@umassd.edu"],
+    "level": "Undergraduate"
+  },
+  
+  {
+    "teamName": "The FBI",
+    "participants": ["Adam Trott", "Huy Truong", "Raquel Ana Bush""],
+    "emails": ["htruong2@umassd.edu, atrott@umassd.edu, rbush@umassd.edu"],
+    "level": "Graduate"
+  },
+
+  {
+    "teamName": "Binary Beast",
+    "participants": ["Christley Clement"],
+    "emails": ["cclement1@umassd.edu"],
+    "level": "Undergraduate"
+  },
+   {
+    "teamName": "Criss",
+    "participants": ["Cristopher Cordero"],
+    "emails": ["ccordero@umassd.edu"],
+    "level": "Undergraduate"
+  },
+   {
+    "teamName": "Pink Fluffy Unicorns",
+    "participants": ["Gustavo Brito", "Jasina Yu"],
+    "emails": ["gdebrito@umassd.edu", "jyu6@umassd.edu"],
+    "level": "Undergraduate"
+  },
+    {
+    "teamName": "Team Debtmaxxing",
+    "participants": ["Henry Thompson", "Patrick Sherman", "Sam Vorn"],
+    "emails": ["svorn@umassd.edu", "psherman1@umassd.edu", "Henry Thompson"],
+    "level": "Graduate"
+  },
+  
+  
 ]
