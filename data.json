@@ -2,7 +2,7 @@
   {
     "teamName": "404",
     "participants": ["Kshitija Ghogare", "Aneri Kamlesh Shastri "],
-    "emails": ["ashastri@umassd.edu, "Kghogare@umassd.edu"],
+    "emails": ["ashastri@umassd.edu, "kghogare@umassd.edu"],
     "level": "Graduate"
   },
   {
@@ -72,7 +72,7 @@
     "participants": ["Henry Thompson", "Patrick Sherman", "Sam Vorn"],
     "emails": ["svorn@umassd.edu", "psherman1@umassd.edu", "Henry Thompson"],
     "level": "Graduate"
-  },
+  }
   
   
 ]
