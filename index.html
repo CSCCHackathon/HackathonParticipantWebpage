@@ -79,24 +79,27 @@
         tbody.innerHTML = "";
 
         data.forEach(row => {
-          const tr = document.createElement("tr");
+        const tr = document.createElement("tr");
 
-          const participants = Array.isArray(row.participants)
-            ? row.participants.join(", ")
-            : row.participants || "";
+        const participants = Array.isArray(row.participants)
+        ? row.participants.join(", ")
+        : row.participants || "";
 
-          const emails = Array.isArray(row.emails)
-            ? row.emails.join(", ")
-            : row.emails || "";
+        const emails = Array.isArray(row.emails)
+        ? row.emails.join(", ")
+        : row.emails || "";
 
-          tr.innerHTML = `
-            <td>${row.teamName || ""}</td>
-            <td>${participants}</td>
-            <td>${emails}</td>
-          `;
+        const level = row.level || "";
 
-          tbody.appendChild(tr);
-        });
+        tr.innerHTML = `
+        <td>${row.teamName || ""}</td>
+        <td>${participants}</td>
+        <td>${emails}</td>
+        <td>${level}</td>
+        `;
+
+        tbody.appendChild(tr);
+      });
       } catch (error) {
         document.getElementById("teamTable").insertAdjacentHTML(
           "afterend",
