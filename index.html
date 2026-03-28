@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team Participants</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background: #f7f9fc;
+      color: #222;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+      background: white;
+      padding: 16px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #1f4e79;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background: #f4f6f8;
+    }
+
+    .muted {
+      color: #666;
+      margin-top: 12px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Team Participants</h1>
+
+  <div class="table-wrapper">
+    <table id="teamTable">
+      <thead>
+        <tr>
+          <th>Team Name</th>
+          <th>Participants</th>
+          <th>Participant Email</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <p class="muted">Update data.json to add new rows.</p>
+
+  <script>
+    async function loadTable() {
+      try {
+        const response = await fetch(`data.json?t=${Date.now()}`);
+        const data = await response.json();
+
+        const tbody = document.querySelector("#teamTable tbody");
+        tbody.innerHTML = "";
+
+        data.forEach(row => {
+          const tr = document.createElement("tr");
+
+          const participants = Array.isArray(row.participants)
+            ? row.participants.join(", ")
+            : row.participants || "";
+
+          const emails = Array.isArray(row.emails)
+            ? row.emails.join(", ")
+            : row.emails || "";
+
+          tr.innerHTML = `
+            <td>${row.teamName || ""}</td>
+            <td>${participants}</td>
+            <td>${emails}</td>
+          `;
+
+          tbody.appendChild(tr);
+        });
+      } catch (error) {
+        document.getElementById("teamTable").insertAdjacentHTML(
+          "afterend",
+          "<p style='color:red;'>Could not load data.json</p>"
+        );
+        console.error(error);
+      }
+    }
+
+    loadTable();
+  </script>
+</body>
+</html>
