@@ -2,11 +2,13 @@
   {
     "teamName": "Alpha Team",
     "participants": ["John Doe", "Jane Smith"],
-    "emails": ["john@example.com", "jane@example.com"]
+    "emails": ["john@example.com", "jane@example.com"],
+    "level": "Undergraduate"
   },
   {
     "teamName": "Beta Team",
     "participants": ["Michael Lee"],
-    "emails": ["michael@example.com"]
+    "emails": ["michael@example.com"],
+    "level": "Graduate"
   }
 ]
