@@ -72,7 +72,24 @@
     "participants": ["Henry Thompson", "Patrick Sherman", "Sam Vorn"],
     "emails": ["svorn@umassd.edu", "psherman1@umassd.edu", "hthompson3@umassd.edu"],
     "level": "Graduate"
-  }
-  
+  },
+  {
+    "teamName": "Minal Ali",
+    "participants": ["Fnu Mahnoor"],
+    "emails": ["fmahnoor1@umassd.edu"],
+    "level": "Graduate"
+  },
+  {
+    "teamName": "Team Anonymous",
+    "participants": ["Subramanya Rao"],
+    "emails": ["srao2@umassd.edu"],
+    "level": "Graduate"
+  },
+    {
+    "teamName": "Cdw 454",
+    "participants": ["Tai Ngoc Nguyen", "Flintoff Arul"],
+    "emails": ["tnguyen76@umassd.edu", "faruldanielroby@umass.edu"],
+    "level": "Graduate"
+    }
   
 ]
