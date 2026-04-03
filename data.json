@@ -90,6 +90,24 @@
     "participants": ["Tai Ngoc Nguyen", "Flintoff Arul","Yashwanth Yerraginnela"],
     "emails": ["tnguyen76@umassd.edu", "faruldanielroby@umass.edu","yyerraginnela@umassd.edu"],
     "level": "Graduate"
+    },
+  {
+    "teamName": "Vex",
+    "participants": ["Christina Antunes Kenyon"],
+    "emails": ["cantuneskenyon@umassd.edu"],
+    "level": "Undergraduate"
+    },
+  {
+    "teamName": "Byteshield",
+    "participants": ["Lavanya Murugesan","Fnu Chandrakanth"],
+    "emails": ["Lmurugesan@umassd.edu","c2@umassd.edu"],
+    "level": "Graduate"
+    },
+   {
+    "teamName": "BlackCap",
+    "participants": ["Fnu Shriprasad"],
+    "emails": ["Fshriprasad@umassd.edu"],
+    "level": "Graduate"
     }
   
-]
+  }
