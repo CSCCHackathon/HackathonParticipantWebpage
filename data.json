@@ -37,8 +37,8 @@
   },
   {
     "teamName": "N/A",
-    "participants": ["Janavi Joshi", "Sherap Gurung"],
-    "emails": ["jjoshi1@umassd.edu","sgurung4@umassd.edu"],
+    "participants": ["Janavi Joshi", "Sherap Gurung","Sebron Baker"],
+    "emails": ["jjoshi1@umassd.edu","sgurung4@umassd.edu","sbaker8@umassd.edu"],
     "level": "Undergraduate"
   },
   
@@ -108,5 +108,19 @@
     "participants": ["Fnu Shriprasad"],
     "emails": ["Fshriprasad@umassd.edu"],
     "level": "Graduate"
-    }
+    },
+  {
+    "teamName": "XTRON",
+    "participants": ["Pavan Kumar Etta"],
+    "emails": ["petta@umassd.edu"],
+    "level": "Graduate"
+  },
+  { 
+    "teamName": "XTRON",
+    "participants": ["Alexander Daley"],
+    "emails": ["adaley1@umassd.edu"],
+    "level": "Undergraduate"
+  }
+
+    
 ]
